@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./calcLength.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="app">
+      <div class="container">
+        <div class="logo"><img src="./images/logo.svg" alt="logo" /></div>
+        <h1 class="title">Анкета</h1>
+        <div class="bio__container">
+          <div class="bio">
+            <div class="bio__label">Полное ФИО</div>
+            <div class="bio__text">Абдухалилов Ислом Абдуллаевич</div>
+          </div>
+          <div class="bio">
+            <div class="bio__label">Дата рождения</div>
+            <div class="bio__text">30.01.2002</div>
+          </div>
+          <div class="bio">
+            <div class="bio__label">Место жительства</div>
+            <div class="bio__text">г. Ташкент, Узбекистан</div>
+          </div>
+          <div class="bio">
+            <div class="bio__label">Телефон / Телеграм</div>
+            <div class="bio__text">+998 93 102-21-29</div>
+          </div>
+          <div class="bio">
+            <div class="bio__label">Почта</div>
+            <div class="bio__text bio__mail">
+              abdukhalilovislom2021@gmail.com
+            </div>
+          </div>
+        </div>
+        <div class="skills__container">
+          <h2 class="skills__title">Расскажите о себе чекбоксами</h2>
+          <p class="skills__p">
+            Отметьте чекбоксами пункты, которые соответствуют вашим скиллам
+            (пункт/пункт/пункт - пункты, в которых несколько технологий,
+            оставьте <br />
+            только те, которыми владеете)
+          </p>
+          <div class="skills">
+            <div class="skills__left">
+              <label class="skill" for="myCheck1">
+                <span class="skill__input__check"
+                  ><input
+                    type="checkbox"
+                    class="skill__checkbox"
+                    id="myCheck1"
+                    checked /><span class="skill__custom__checkbox"></span
+                ></span>
+                <span class="skill__label">Верстаю семантично</span>
+              </label>
+              <label class="skill" for="myCheck2">
+                <span class="skill__input__check"
+                  ><input
+                    type="checkbox"
+                    class="skill__checkbox"
+                    id="myCheck2"
+                    checked /><span class="skill__custom__checkbox"></span
+                ></span>
+                <span class="skill__label">БЭМ/OOCSS</span>
+              </label>
+              <label class="skill" for="myCheck3">
+                <span class="skill__input__check"
+                  ><input
+                    type="checkbox"
+                    class="skill__checkbox"
+                    id="myCheck3"
+                    checked /><span class="skill__custom__checkbox"></span
+                ></span>
+                <span class="skill__label"
+                  >Stylus/LESS/SASS (подчекнуть то,<br />
+                  чем пользуюсь)</span
+                >
+              </label>
+              <label class="skill" for="myCheck4">
+                <span class="skill__input__check"
+                  ><input
+                    type="checkbox"
+                    class="skill__checkbox"
+                    id="myCheck4"
+                    checked /><span class="skill__custom__checkbox"></span
+                ></span>
+                <span class="skill__label">Верстаю Pixel perfect</span>
+              </label>
+              <label class="skill" for="myCheck5">
+                <span class="skill__input__check"
+                  ><input
+                    type="checkbox"
+                    class="skill__checkbox"
+                    id="myCheck5"
+                    checked /><span class="skill__custom__checkbox"></span
+                ></span>
+                <span class="skill__label"
+                  >Я внимателен к деталям и перед отправкой <br />на проверку
+                  проверяю внимательно<br />
+                  сделанную мной задачу сам</span
+                >
+              </label>
+              <label class="skill" for="myCheck6">
+                <span class="skill__input__check"
+                  ><input
+                    type="checkbox"
+                    class="skill__checkbox"
+                    id="myCheck6"
+                    checked /><span class="skill__custom__checkbox"></span
+                ></span>
+                <span class="skill__label">Я хорошо знаю jQuery</span>
+              </label>
+              <label class="skill" for="myCheck7">
+                <span class="skill__input__check"
+                  ><input
+                    type="checkbox"
+                    class="skill__checkbox"
+                    id="myCheck7"
+                    checked /><span class="skill__custom__checkbox"></span
+                ></span>
+                <span class="skill__label">Я хорошо знаю Ajax</span>
+              </label>
+            </div>
+
+            <div class="skills__right">
+              <label class="skill" for="myCheck8">
+                <span class="skill__input__check"
+                  ><input
+                    type="checkbox"
+                    class="skill__checkbox"
+                    id="myCheck8"
+                    checked /><span class="skill__custom__checkbox"></span
+                ></span>
+                <span class="skill__label">Я умею пользоваться Git</span>
+              </label>
+              <label class="skill" for="myCheck9">
+                <span class="skill__input__check"
+                  ><input
+                    type="checkbox"
+                    class="skill__checkbox"
+                    id="myCheck9"
+                    checked /><span class="skill__custom__checkbox"></span
+                ></span>
+                <span class="skill__label"
+                  >Я знаю и умею натягивать верстку на Wordpress</span
+                >
+              </label>
+              <label class="skill" for="myCheck10">
+                <span class="skill__input__check"
+                  ><input
+                    type="checkbox"
+                    class="skill__checkbox"
+                    id="myCheck10" /><span
+                    class="skill__custom__checkbox"
+                  ></span
+                ></span>
+                <span class="skill__label"
+                  >Я знаю и уверенно применяю ACF в Wordpress</span
+                >
+              </label>
+              <label class="skill" for="myCheck11">
+                <span class="skill__input__check"
+                  ><input
+                    type="checkbox"
+                    class="skill__checkbox"
+                    id="myCheck11" /><span
+                    class="skill__custom__checkbox"
+                  ></span
+                ></span>
+                <span class="skill__label"
+                  >Я знаю основы PHP и могу немного править код</span
+                >
+              </label>
+              <label class="skill" for="myCheck12">
+                <span class="skill__input__check"
+                  ><input
+                    type="checkbox"
+                    class="skill__checkbox"
+                    id="myCheck12" /><span
+                    class="skill__custom__checkbox"
+                  ></span
+                ></span>
+                <span class="skill__label">Я знаю OpenCart</span>
+              </label>
+              <label class="skill" for="myCheck13">
+                <span class="skill__input__check"
+                  ><input
+                    type="checkbox"
+                    class="skill__checkbox"
+                    id="myCheck13"
+                    checked /><span class="skill__custom__checkbox"></span
+                ></span>
+                <span class="skill__label">Всегда в сети онлайн</span>
+              </label>
+              <label class="skill" for="myCheck14">
+                <span class="skill__input__check"
+                  ><input
+                    type="checkbox"
+                    class="skill__checkbox"
+                    id="myCheck14"
+                    checked /><span class="skill__custom__checkbox"></span
+                ></span>
+                <span class="skill__label"
+                  >Я пунктуален и могу работать в сжатые сроки</span
+                >
+              </label>
+              <label class="skill" for="myCheck15">
+                <span class="skill__input__check"
+                  ><input
+                    type="checkbox"
+                    class="skill__checkbox"
+                    id="myCheck15"
+                    checked /><span class="skill__custom__checkbox"></span
+                ></span>
+                <span class="skill__label"
+                  >Я могу быстро переключаться между задачами</span
+                >
+              </label>
+              <label class="skill" for="myCheck16">
+                <span class="skill__input__check"
+                  ><input
+                    type="checkbox"
+                    class="skill__checkbox"
+                    id="myCheck16" /><span
+                    class="skill__custom__checkbox"
+                  ></span
+                ></span>
+                <span class="skill__label">Я ленивый(-ая)</span>
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="slider__container">
+        <h2 class="slider__title container">
+          Уровень владения jQuery Задание №1
+        </h2>
+        <div class="slider__p container">
+          Ползунок должен двигаться и при смене позиции активная иконка
+          выделяться цветом
+        </div>
+        <div class="slider">
+          <div class="letter__slider">
+            <input id="letterA" type="radio" name="letter" />
+            <label for="letterA">
+              <img
+                src="./images/slider/mood1.jpg"
+                alt="label"
+                data-active="false"
+              />
+              <img
+                src="./images/slider/mood1_active.jpg"
+                alt="label"
+                data-active="true"
+              />
+              <span class="slider__label__text">Не владею</span>
+            </label>
+            <input id="letterB" type="radio" name="letter" />
+            <label for="letterB"
+              ><img
+                src="./images/slider/mood2.jpg"
+                alt="label"
+                data-active="false"
+              />
+              <img
+                src="./images/slider/mood2_active.jpg"
+                alt="label"
+                data-active="true"
+              />
+              <span class="slider__label__text">Использую готовые решения</span>
+            </label>
+            <input id="letterC" type="radio" name="letter" />
+            <label for="letterC"
+              ><img
+                src="./images/slider/mood3.jpg"
+                alt="label"
+                data-active="false"
+              />
+              <img
+                src="./images/slider/mood3_active.jpg"
+                alt="label"
+                data-active="true"
+              />
+              <span class="slider__label__text"
+                >Использую готовые решения и умею их переделывать</span
+              >
+            </label>
+            <input id="letterD" type="radio" name="letter" checked />
+            <label for="letterD"
+              ><img
+                src="./images/slider/mood4.jpg"
+                alt="label"
+                data-active="false"
+              />
+              <img
+                src="./images/slider/mood4_active.jpg"
+                alt="label"
+                data-active="true"
+              />
+              <span class="slider__label__text"
+                >Пишу сложный <br />
+                JS с нуля</span
+              >
+            </label>
+          </div>
+          <div class="slider__line"></div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="calc__container">
+          <h2 class="calc__title">Уровень владения jQuery Задание №2</h2>
+          <p class="calc__p">
+            Строительный калькулятор. В зависимости от выбранных параметров
+            должен сразу считать стоимость по формуле, указанной в Техническом
+            задании.
+          </p>
+          <div class="calc">
+            <div class="calc__left">
+              <div class="calc__left__slider">
+                <form name="demo" class="calc__slider">
+                  <input
+                    id="lengthA"
+                    value="30"
+                    type="radio"
+                    name="length"
+                    onchange="getLength()"
+                    checked
+                  />
+                  <label for="lengthA"><span>30м </span></label>
+                  <input
+                    id="lengthB"
+                    value="40"
+                    type="radio"
+                    name="length"
+                    onchange="getLength()"
+                  />
+                  <label for="lengthB"><span>40м </span></label>
+                  <input
+                    id="lengthC"
+                    value="50"
+                    type="radio"
+                    name="length"
+                    onchange="getLength()"
+                  />
+                  <label for="lengthC"><span>50м </span></label>
+                  <input
+                    id="lengthD"
+                    value="60"
+                    type="radio"
+                    name="length"
+                    onchange="getLength()"
+                  />
+                  <label for="lengthD"><span>60м </span></label>
+                  <input
+                    id="lengthE"
+                    value="70"
+                    type="radio"
+                    name="length"
+                    onchange="getLength()"
+                  />
+                  <label for="lengthE"><span>70м </span></label>
+                  <input
+                    id="lengthF"
+                    value="80"
+                    type="radio"
+                    name="length"
+                    onchange="getLength()"
+                  />
+                  <label for="lengthF"><span>80м </span></label>
+                  <input
+                    id="lengthG"
+                    value="90"
+                    type="radio"
+                    name="length"
+                    onchange="getLength()"
+                  />
+                  <label for="lengthG"><span>90м </span></label>
+                  <input
+                    id="lengthH"
+                    value="100"
+                    type="radio"
+                    name="length"
+                    onchange="getLength()"
+                  />
+                  <label for="lengthH"><span>100м </span></label>
+                </form>
+                <div class="calc__length">100м</div>
+              </div>
+              <div class="calc__left__price">
+                <div class="calc__left__price__label">Стоимость:</div>
+                <div class="calc__left__price__text">
+                  <span id="calc__left__price__text">100 000</span>
+                  <span>руб.</span>
+                </div>
+              </div>
+            </div>
+            <div class="calc__right">
+              <form class="calc__left__inputs" for="ремонта">
+                <div>Тип ремонта:</div>
+                <div>
+                  <input
+                    type="radio"
+                    class="calc__left__input"
+                    name="ремонта"
+                    onchange="getRepair()"
+                    id="Новостройка"
+                    checked
+                    value="1"
+                  />
+                  <label for="Новостройка">Новостройка</label>
+                </div>
+                <div>
+                  <input
+                    type="radio"
+                    class="calc__left__input"
+                    name="ремонта"
+                    onchange="getRepair()"
+                    id="Вторичное"
+                    value="1.5"
+                  />
+                  <label for="Вторичное">Вторичное жилье</label>
+                </div>
+                <div>
+                  <input
+                    type="radio"
+                    class="calc__left__input"
+                    name="ремонта"
+                    onchange="getRepair()"
+                    id="Частный"
+                    value="2"
+                  />
+                  <label for="Частный">Частный дом</label>
+                </div>
+              </form>
+              <form class="calc__right__inputs" for="Тариф">
+                <div>Тарифы:</div>
+                <div>
+                  <input
+                    type="radio"
+                    class="calc__right__input"
+                    name="Тариф"
+                    onchange="getTarif()"
+                    value="1500"
+                    checked
+                    id="Частичный"
+                  />
+                  <label for="Частичный">Частичный</label>
+                </div>
+                <div>
+                  <input
+                    type="radio"
+                    class="calc__right__input"
+                    name="Тариф"
+                    onchange="getTarif()"
+                    value="2500"
+                    id="Косметический"
+                  />
+                  <label for="Косметический">Косметический</label>
+                </div>
+                <div>
+                  <input
+                    type="radio"
+                    class="calc__right__input"
+                    name="Тариф"
+                    onchange="getTarif()"
+                    value="3500"
+                    id="Под"
+                  />
+                  <label for="Под">Под ключ</label>
+                </div>
+                <div>
+                  <input
+                    type="radio"
+                    class="calc__right__input"
+                    name="Тариф"
+                    onchange="getTarif()"
+                    value="4500"
+                    id="Капитальный"
+                  />
+                  <label for="Капитальный">Капитальный</label>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="about__container">
+          <div class="about">
+            <h2 class="about__title">Расскажите о себе словами</h2>
+            <p class="about__p">
+              Напишите пару предложений, чем вас привлекла наша вакансия и чего
+              вы ожидаете от работы в ONE WEB. <br />Кстати, будет здорово, если
+              при нехватке места для текста строки будут добавляться
+              автоматически.
+            </p>
+            <div class="about__text">
+              <div class="about__text__line">Ну - ууу - уу ...</div>
+              <div class="about__text__line">Ээээ ...</div>
+              <div class="about__text__line">...</div>
+            </div>
+          </div>
+        </div>
+        <div class="plans__container">
+          <div class="plans">
+            <h2 class="plans__title">Какие у вас планы на будущее?</h2>
+            <p class="plans__p">
+              Этот ответ ни на что не повлияет. Не беда, если в будущем ваши
+              планы поменяются.
+            </p>
+            <form class="plans_inputs" for="plan">
+              <div class="plans_input">
+                <input
+                  type="radio"
+                  class="plan__input"
+                  id="Верстать"
+                  name="plan"
+                />
+                <label for="Верстать">Верстать</label>
+              </div>
+              <div class="plans_input">
+                <input
+                  type="radio"
+                  class="plan__input"
+                  id="Прокачиваться"
+                  name="plan"
+                />
+                <label for="Прокачиваться">Прокачиваться в JS</label>
+              </div>
+              <div class="plans_input">
+                <input
+                  type="radio"
+                  class="plan__input"
+                  id="Менеджерство"
+                  name="plan"
+                />
+                <label for="Менеджерство">Менеджерство</label>
+              </div>
+              <div class="plans_input">
+                <input
+                  type="radio"
+                  class="plan__input"
+                  id="Другое"
+                  name="plan"
+                  checked
+                />
+                <label for="Другое">Другое</label>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="experience">
+          <span class="experience__label">Мой опыт работы:</span>
+          <span class="experience__text">1год, 5 месяцев</span>
+        </div>
+        <div class="time">
+          <span class="time__label"
+            >Кол-во часов потраченных на тестовое задание:</span
+          >
+          <span class="time__text">8 часов</span>
+        </div>
+        <div class="date">
+          <span class="date__label">Дата заполнения</span>
+          <span class="date__text">20. 10. 2023</span>
+        </div>
+      </div>
+      <img src="./images/back/Ellipse 7.png" class="bg__image1" alt="bg" />
+      <img src="./images/back/Ellipse 8.png" class="bg__image2" alt="bg" />
+      <img src="./images/back/Ellipse 9.png" class="bg__image3" alt="bg" />
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
+
+<!-- @media all and (max-width: 1439px) {} -->
